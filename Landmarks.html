@@ -12,23 +12,30 @@
     <title>Landmarks</title>
     <link rel="stylesheet" href="LandmarksStyle.css">
     <nav class="navbar">
-    <ul class="navelements">
-        <li><a href="Home.html"><b>Home</b></a>
-        </li>
-        <li><a href="Culture.html"><i>Culture</i></a>
-        </li>
-        <li><a href="Landmarks.html">Landmarks</a>
-        </li>
-        <li><a href="Cuisine.html">Cuisine</a>
-        </li>
-        <li><a href="Contact Us.html">Contact Us</a>
-        </li>
-    </ul>
-</nav>
+        <ul class="navelements">
+            <li><a href="Home.html"><b>Home</b></a>
+            </li>
+            <li><a href="Culture.html"><i>Culture</i></a>
+            </li>
+            <li><a href="Landmarks.html">Landmarks</a>
+            </li>
+            <li><a href="Cuisine.html">Cuisine</a>
+            </li>
+            <li><a href="Contact Us.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
 </head>
 
 <body>
+    <div id="loading-screen">
+        <div class="loader"></div>
+    </div>
+    <div class="view">
     <h1>Famous Landmarks in India</h1>
+    <div class="hero-section block">
+        <img src="Traditional_Background/Screenshot 2025-02-16 112106.png" height="400px" width="2000px">
+    </div>
     <h4>Explore the iconic landmarks that define the heritage and history of India.</h4>
     <h2>Iconic Monuments</h2>
     <p>India is home to some of the most awe-inspiring landmarks in the world. These monuments reflect its rich cultural
@@ -41,11 +48,19 @@
             latticework.</li>
         <li><b>Charminar:</b> An iconic mosque in Hyderabad and a masterpiece of Indo-Islamic architecture.</li>
     </ul>
-    <pre>          <image src="Web Designing Project _Images/redfort.jpg" height="300px"><br>          The majestic Red Fort in Delhi</image></pre>
+    <div class="image-main block">
+        <div class="image-container ">
+            <image src="Web Designing Project _Images/redfort.jpg" height="300px" class="image">
+                <div class="text-overlay">
+                    The majestic Red Fort in Delhi
+                </div>
+            </image>
+        </div>
+    </div>
     <h2>Indian States and Capitals</h2>
     <p>India is a union of states, each with its unique cultural and geographical identity. Here's a detailed table
         listing some Indian states, their capitals, and key data:</p>
-    <table border="1" cellspacing="0" width="100%" cellpadding="5px">
+    <table border="1" cellspacing="0" width="100%" cellpadding="5px" class="block">
         <div style="text-align: center;">
             <b>List of Indian States</b>
         </div>
@@ -81,19 +96,29 @@
             <td colspan="2">Hindi</td>
         </tr>
         <tr>
-           <td colspan="8">Note: Data is indicative and may not represent official values.</td>
+            <td colspan="8">Note: Data is indicative and may not represent official values.</td>
         </tr>
     </table>
-
+<div class="fun-fact">
     <h2>Fun Fact</h2>
-    <p>Did you know? India has the largest postal network in the world, with over 150,000 post offices, including one located on a floating structure in Dal Lake, Srinagar.</p>
-    <pre>         <image src="Web Designing Project _Images/dal_lake.jpg" height="270px"><br>         The floating post office in Dal Lake, Srinagar</image></pre>
+    <p>Did you know? India has the largest postal network in the world, with over 150,000 post offices, including one
+        located on a floating structure in Dal Lake, Srinagar.</p>
+</div>
+    <div class="image-main block">
+        <div class="image-container">
+            <image src="Web Designing Project _Images/dal_lake.jpg" height="270px" class="image">
+                <div class="text-overlay">
+                The floating post office in Dal Lake, Srinagar
+            </div>
+            </image>
+        </div>
+    </div>
     <footer class="footer">
         <p><a href="Home.html"><u>&larr;Back to Home</u></a></p>
         <p><i>Contact us at <a href="info@incredibleindia.com">info@incredibleindia.com</a></i></p>
         <p>© 2025 Incredible India Project. All rights reserved.</p>
     </footer>
-
+</div>
 
 
 </body>

@@ -23,10 +23,17 @@
 </head>
 
 <body>
-    <h1>Contact Us</h1>
-    <p>Please fill out the form below for any inquiries or to register as a student.</p>
+    <div id="loading-screen">
+        <div class="loader"></div>
+    </div>
+    <div class="view">
+    <div class="contact-us">
+        <h1>Contact Us</h1>
+    </div>
+        <p class="p">Please fill out the form below for any inquiries or to register as a student.</p>
+    
     <h2>Student Registration Form</h2>
-    <form>
+    <form class="block">
         <table cellpadding="10px">
             <tr>
                 <td>
@@ -35,10 +42,10 @@
                 </td>
             </tr>
             <tr>
-            <td>
-                <label for="password">Password:</label>
-                <input id="password" type="password" required>
-            </td>
+                <td>
+                    <label for="password">Password:</label>
+                    <input id="password" type="password" required>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -49,8 +56,8 @@
             </tr>
             <tr>
                 <td>
-                    <label  for="News">Subscribe to Newsletter:</label>
-                    <input type="checkbox" name="News"> 
+                    <label for="News">Subscribe to Newsletter:</label>
+                    <input type="checkbox" name="News">
                 </td>
             </tr>
             <tr>
@@ -133,14 +140,16 @@
         </table>
     </form>
     <h2>More Information</h2>
-    <p>Explore government job opportunities on the official OJAS website:</p>
-    <iframe src="https://ojas.gujarat.gov.in/" height="200" width="300" title="OJAS"></iframe>
+    <div class="ojas block" >
+    <p class="p">Explore government job opportunities on the official OJAS website:</p>
+    <iframe src="https://ojas.gujarat.gov.in/" height="400" width="600" title="OJAS"></iframe>
+</div>
     <footer class="footer">
         <p><a href="Home.html"><u>&larr;Back to Home</u></a></p>
         <p><i>Contact us at <a href="info@incredibleindia.com">info@incredibleindia.com</a></i></p>
         <p>© 2025 Incredible India Project. All rights reserved.</p>
     </footer>
-
+</div>
 </body>
 
 </html>
