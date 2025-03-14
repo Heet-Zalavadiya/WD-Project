@@ -8,6 +8,7 @@ body {
     background-image: url(Traditional_Background/Screenshot\ \(7\).png);
     background-repeat: repeat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
 }
 #loading-screen {
     position: fixed;
